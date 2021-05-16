@@ -6,8 +6,11 @@ import com.justai.jaicf.channel.jaicp.channels.ChatWidgetChannel
 import com.justai.jaicf.channel.jaicp.channels.TelephonyChannel
 import com.justai.jaicf.template.accessToken
 import com.justai.jaicf.template.templateBot
+import com.justai.jaicf.template.weather.HandlerJSON
+import com.justai.jaicf.template.weather.OpenWeatherMap
 
 fun main() {
+
     JaicpPollingConnector(
         templateBot,
         accessToken,
